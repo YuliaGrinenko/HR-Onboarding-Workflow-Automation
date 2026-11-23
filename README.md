@@ -36,7 +36,7 @@ This is a practical learning project exploring workflow automation, application 
 
 ## Workflow Diagram
 
-![HR Onboarding Workflow](sceenshots/workflow-diagram.png)
+![HR Onboarding Workflow](screenshots/workflow_diagram.png)
 
 ## Form and Employee Register
 
