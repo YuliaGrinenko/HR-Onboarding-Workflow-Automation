@@ -41,9 +41,10 @@ The form collects employee details, job information, start date, work location, 
 
 Conditional branching displays the equipment selection question only when additional equipment is required.
 
+[Open the demo Google Form](https://docs.google.com/forms/d/e/1FAIpQLSebD3Y_TTKWWue2DWfuVchHewrdi1Zv0QpVgCtGqwFEjOnkqg/viewform)
+
 The Employee Register stores the submitted information in a structured format. The work email field is left blank at registration because it may be created later by IT. New records are assigned the status **Pending**.
 
-![Google form](screenshots/google_form.png)
 ![Employee Register](screenshots/employee_register.png)
 
 ## Automation Logic
@@ -56,8 +57,7 @@ The Make scenario uses:
 - **Gmail — Send an Email:** sends the relevant notifications.
 
 ![HR Onboarding Workflow](screenshots/workflow_scenario.png)
-![Equipment filter](screenshots/equipment_filter.png)
-![Email notification](screenshots/email_notification.png)
+
 
 ## Testing
 
@@ -72,7 +72,6 @@ Both conditional routes have been tested successfully. Scheduled automatic execu
 
 ## Project Demo
 
-- [Open the demo Google Form](https://docs.google.com/forms/d/e/1FAIpQLSebD3Y_TTKWWue2DWfuVchHewrdi1Zv0QpVgCtGqwFEjOnkqg/viewform)
 - [View the Make automation](https://eu1.make.com/public/shared-scenario/0yqRe8QpSoC/hr-onboarding-new-starter-registration)
 
 ## Screenshots
