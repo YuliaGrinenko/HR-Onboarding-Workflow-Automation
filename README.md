@@ -66,6 +66,11 @@ The workflow has been tested using fictional employee records.
 
 Both conditional routes have been tested successfully. Scheduled automatic execution is still to be confirmed.
 
+## Project Demo
+
+- [Open the demo Google Form](https://docs.google.com/forms/d/e/1FAIpQLSebD3Y_TTKWWue2DWfuVchHewrdi1Zv0QpVgCtGqwFEjOnkqg/viewform)
+- [View the Make automation](https://eu1.make.com/public/shared-scenario/0yqRe8QpSoC/hr-onboarding-new-starter-registration)
+
 ## Screenshots
 
 Screenshots of the form, Employee Register, Make scenario, routing conditions, notifications and test results will be added to the `screenshots` folder.
