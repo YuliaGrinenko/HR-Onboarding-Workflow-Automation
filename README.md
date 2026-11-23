@@ -8,7 +8,7 @@ This project demonstrates how a basic HR onboarding workflow can be automated us
 
 A hiring manager submits new starter information through a form. The automation adds the employee to a central register and sends email notifications based on whether additional equipment is required.
 
-This is a practical learning project exploring workflow automation, application integrations and conditional logic in an HR context.
+This is a practical learning project exploring workflow automation and conditional logic in an HR context.
 
 ## Objectives
 
