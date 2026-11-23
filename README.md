@@ -34,9 +34,6 @@ This is a practical learning project exploring workflow automation, application 
    - **Equipment required:** an IT equipment request is sent to IT, and a confirmation is sent to the hiring manager.
    - **No equipment required:** a confirmation is sent to the hiring manager; no IT equipment request is sent.
 
-## Workflow Diagram
-
-![HR Onboarding Workflow](screenshots/workflow_diagram.png)
 
 ## Form and Employee Register
 
@@ -46,6 +43,9 @@ Conditional branching displays the equipment selection question only when additi
 
 The Employee Register stores the submitted information in a structured format. The work email field is left blank at registration because it may be created later by IT. New records are assigned the status **Pending**.
 
+![Google form](screenshots/google_form.png)
+![Employee Register](screenshots/employee_register.png)
+
 ## Automation Logic
 
 The Make scenario uses:
@@ -54,6 +54,10 @@ The Make scenario uses:
 - **Google Sheets — Add a Row:** creates an employee record.
 - **Router and filters:** direct the workflow according to the equipment requirement.
 - **Gmail — Send an Email:** sends the relevant notifications.
+
+![HR Onboarding Workflow](screenshots/workflow_scenario.png)
+![Equipment filter](screenshots/equipment_filter.png)
+![Email notification](screenshots/email_notification.png)
 
 ## Testing
 
@@ -73,7 +77,7 @@ Both conditional routes have been tested successfully. Scheduled automatic execu
 
 ## Screenshots
 
-Screenshots of the form, Employee Register, Make scenario, routing conditions, notifications and test results will be added to the `screenshots` folder.
+Screenshots of the form, Employee Register, Make scenario, routing conditions and notifications will be added to the `screenshots` folder.
 
 ## Skills Demonstrated
 
